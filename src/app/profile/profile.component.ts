@@ -10,12 +10,14 @@ import { Router, RouterLink } from '@angular/router';
   styleUrl: './profile.component.css',
 })
 export class ProfileComponent {
-  constructor(private userService: UserService, private router: Router) {}
+  constructor(
+    private userService: UserService,
+    private router: Router,
+  ) {}
   ngOnInit() {
     this.userService.profile();
   }
   onLogout() {
     this.router.navigate(['/']);
-    localStorage.removeItem('token');
   }
 }

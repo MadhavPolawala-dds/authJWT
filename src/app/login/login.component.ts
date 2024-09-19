@@ -12,7 +12,10 @@ import { UserService } from '../services/user.service';
   styleUrl: './login.component.css',
 })
 export class LoginComponent {
-  constructor(private userService: UserService, private router: Router) {}
+  constructor(
+    private userService: UserService,
+    private router: Router,
+  ) {}
 
   onLogin(data: any) {
     console.log(data);
