@@ -18,7 +18,7 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
-    "ngx-cookie-service": "^13.2.0",
+    "ngx-cookie-service": "^17.1.0",
     "nodemon": "^3.1.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
